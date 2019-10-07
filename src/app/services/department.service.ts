@@ -18,6 +18,7 @@ export class DepartmentService {
   readonly APIUrl = "http://192.168.8.102:90/api";
   //readonly APIUrl = "http://localhost:11233/api";
   //readonly APIUrl = "http://localhost/web.api/api";
+  //Test
 
   getDepList(): Observable<Department[]>
   {
