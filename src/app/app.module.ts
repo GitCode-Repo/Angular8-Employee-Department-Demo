@@ -24,7 +24,7 @@ import { EditEmpComponent } from './employee/edit-emp/edit-emp.component';
 import { ShowEmpComponent } from './employee/show-emp/show-emp.component'; 
 
 import {DepartmentService} from 'src/app/services/department.service';
-import {EmployeeService} from 'src/app/services/employee.service';
+//import {EmployeeService} from 'src/app/services/employee.service';
 
 
 @NgModule({
@@ -53,7 +53,8 @@ import {EmployeeService} from 'src/app/services/employee.service';
     FormsModule,
     MatSnackBarModule
   ],
-  providers: [DepartmentService,EmployeeService],
+  //providers: [DepartmentService,EmployeeService],
+  providers: [DepartmentService],
   bootstrap: [AppComponent],
   entryComponents: [AddDepComponent,EditDepComponent]
 })

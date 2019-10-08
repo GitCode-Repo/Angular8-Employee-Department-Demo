@@ -22,20 +22,20 @@ export class DepartmentService {
     return this.http.get<Employee[]>(this.APIUrl + '/Employee');
   }
 
-  addEmployee(dep: Employee)
-  {
-    return this.http.post(this.APIUrl + '/Employee',dep);
-  }
+  // addEmployee(dep: Employee)
+  // {
+  //   return this.http.post(this.APIUrl + '/Employee',dep);
+  // }
 
-  updateEmployee (dep: Employee)
-  {
-    return this.http.put(this.APIUrl + '/Employee',dep);
-  }
+  // updateEmployee (dep: Employee)
+  // {
+  //   return this.http.put(this.APIUrl + '/Employee',dep);
+  // }
 
-  deleteEmployee(id: number){
-    debugger;
-    return this.http.delete(this.APIUrl + '/Employee/' + id);
-  }
+  // deleteEmployee(id: number){
+  //   debugger;
+  //   return this.http.delete(this.APIUrl + '/Employee/' + id);
+  // }
 
   private _listners =new Subject<any>();
   listen(): Observable<any>
