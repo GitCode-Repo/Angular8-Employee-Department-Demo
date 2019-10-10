@@ -1,4 +1,4 @@
-# Angular 8 simple fullstack app Demo 
+# Angular 8 simple fullstack app Demo  🚀
 ### (Employees and Departments Information Storing)
 This demo will show you a simple fullstack app with Angular 8 and ASP .NET Web API
 
